@@ -48,6 +48,7 @@
       <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.7\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data.Linq" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -67,6 +68,57 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <Content Include="TutorWebsite\Bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll.refresh" />
+    <Content Include="TutorWebsite\Bin\roslyn\csc.exe.config" />
+    <Content Include="TutorWebsite\Bin\roslyn\csc.exe.refresh" />
+    <Content Include="TutorWebsite\Bin\roslyn\csc.rsp" />
+    <Content Include="TutorWebsite\Bin\roslyn\csi.exe.config" />
+    <Content Include="TutorWebsite\Bin\roslyn\csi.exe.refresh" />
+    <Content Include="TutorWebsite\Bin\roslyn\csi.rsp" />
+    <Content Include="TutorWebsite\Bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll.refresh" />
+    <Content Include="TutorWebsite\Bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll.refresh" />
+    <Content Include="TutorWebsite\Bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll.refresh" />
+    <Content Include="TutorWebsite\Bin\roslyn\Microsoft.CodeAnalysis.dll.refresh" />
+    <Content Include="TutorWebsite\Bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll.refresh" />
+    <Content Include="TutorWebsite\Bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll.refresh" />
+    <Content Include="TutorWebsite\Bin\roslyn\Microsoft.CSharp.Core.targets" />
+    <Content Include="TutorWebsite\Bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll.refresh" />
+    <Content Include="TutorWebsite\Bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll.refresh" />
+    <Content Include="TutorWebsite\Bin\roslyn\Microsoft.VisualBasic.Core.targets" />
+    <Content Include="TutorWebsite\Bin\roslyn\Microsoft.Win32.Primitives.dll.refresh" />
+    <Content Include="TutorWebsite\Bin\roslyn\System.AppContext.dll.refresh" />
+    <Content Include="TutorWebsite\Bin\roslyn\System.Collections.Immutable.dll.refresh" />
+    <Content Include="TutorWebsite\Bin\roslyn\System.Console.dll.refresh" />
+    <Content Include="TutorWebsite\Bin\roslyn\System.Diagnostics.FileVersionInfo.dll.refresh" />
+    <Content Include="TutorWebsite\Bin\roslyn\System.Diagnostics.Process.dll.refresh" />
+    <Content Include="TutorWebsite\Bin\roslyn\System.Diagnostics.StackTrace.dll.refresh" />
+    <Content Include="TutorWebsite\Bin\roslyn\System.IO.Compression.dll.refresh" />
+    <Content Include="TutorWebsite\Bin\roslyn\System.IO.FileSystem.dll.refresh" />
+    <Content Include="TutorWebsite\Bin\roslyn\System.IO.FileSystem.DriveInfo.dll.refresh" />
+    <Content Include="TutorWebsite\Bin\roslyn\System.IO.FileSystem.Primitives.dll.refresh" />
+    <Content Include="TutorWebsite\Bin\roslyn\System.IO.Pipes.dll.refresh" />
+    <Content Include="TutorWebsite\Bin\roslyn\System.Reflection.Metadata.dll.refresh" />
+    <Content Include="TutorWebsite\Bin\roslyn\System.Security.AccessControl.dll.refresh" />
+    <Content Include="TutorWebsite\Bin\roslyn\System.Security.Claims.dll.refresh" />
+    <Content Include="TutorWebsite\Bin\roslyn\System.Security.Cryptography.Algorithms.dll.refresh" />
+    <Content Include="TutorWebsite\Bin\roslyn\System.Security.Cryptography.Encoding.dll.refresh" />
+    <Content Include="TutorWebsite\Bin\roslyn\System.Security.Cryptography.Primitives.dll.refresh" />
+    <Content Include="TutorWebsite\Bin\roslyn\System.Security.Cryptography.X509Certificates.dll.refresh" />
+    <Content Include="TutorWebsite\Bin\roslyn\System.Security.Principal.Windows.dll.refresh" />
+    <Content Include="TutorWebsite\Bin\roslyn\System.Text.Encoding.CodePages.dll.refresh" />
+    <Content Include="TutorWebsite\Bin\roslyn\System.Threading.Thread.dll.refresh" />
+    <Content Include="TutorWebsite\Bin\roslyn\System.ValueTuple.dll.refresh" />
+    <Content Include="TutorWebsite\Bin\roslyn\System.Xml.ReaderWriter.dll.refresh" />
+    <Content Include="TutorWebsite\Bin\roslyn\System.Xml.XmlDocument.dll.refresh" />
+    <Content Include="TutorWebsite\Bin\roslyn\System.Xml.XPath.dll.refresh" />
+    <Content Include="TutorWebsite\Bin\roslyn\System.Xml.XPath.XDocument.dll.refresh" />
+    <Content Include="TutorWebsite\Bin\roslyn\vbc.exe.config" />
+    <Content Include="TutorWebsite\Bin\roslyn\vbc.exe.refresh" />
+    <Content Include="TutorWebsite\Bin\roslyn\vbc.rsp" />
+    <Content Include="TutorWebsite\Bin\roslyn\VBCSCompiler.exe.config" />
+    <Content Include="TutorWebsite\Bin\roslyn\VBCSCompiler.exe.refresh" />
+    <Content Include="TutorWebsite\MasterPage.master" />
+    <None Include="TutorWebsite\packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -75,10 +127,117 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\15.png" />
+    <Content Include="Images\bartSimpson.JPG" />
+    <Content Include="Images\book.png" />
+    <Content Include="Images\logo.png" />
+    <Content Include="Images\simpson.JPG" />
+    <Content Include="Images\star.png" />
+    <Content Include="Images\textbook.png" />
+    <Content Include="Images\time.png" />
+    <Content Include="Images\time2.png" />
+    <Content Include="Images\toystory.jpeg" />
+    <Content Include="Images\toystory2.jpeg" />
+    <Content Include="Images\tutor.png" />
+    <Content Include="Images\tutor3.png" />
+    <Content Include="TutorWebsite\About.aspx" />
+    <Content Include="TutorWebsite\App_Themes\Theme1\StyleSheet.css" />
+    <Content Include="TutorWebsite\Bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" />
+    <Content Include="TutorWebsite\Bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml" />
+    <Content Include="TutorWebsite\Bin\roslyn\csc.exe" />
+    <Content Include="TutorWebsite\Bin\roslyn\csi.exe" />
+    <Content Include="TutorWebsite\Bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll" />
+    <Content Include="TutorWebsite\Bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll" />
+    <Content Include="TutorWebsite\Bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll" />
+    <Content Include="TutorWebsite\Bin\roslyn\Microsoft.CodeAnalysis.dll" />
+    <Content Include="TutorWebsite\Bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll" />
+    <Content Include="TutorWebsite\Bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll" />
+    <Content Include="TutorWebsite\Bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll" />
+    <Content Include="TutorWebsite\Bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll" />
+    <Content Include="TutorWebsite\Bin\roslyn\Microsoft.Win32.Primitives.dll" />
+    <Content Include="TutorWebsite\Bin\roslyn\System.AppContext.dll" />
+    <Content Include="TutorWebsite\Bin\roslyn\System.Collections.Immutable.dll" />
+    <Content Include="TutorWebsite\Bin\roslyn\System.Console.dll" />
+    <Content Include="TutorWebsite\Bin\roslyn\System.Diagnostics.FileVersionInfo.dll" />
+    <Content Include="TutorWebsite\Bin\roslyn\System.Diagnostics.Process.dll" />
+    <Content Include="TutorWebsite\Bin\roslyn\System.Diagnostics.StackTrace.dll" />
+    <Content Include="TutorWebsite\Bin\roslyn\System.IO.Compression.dll" />
+    <Content Include="TutorWebsite\Bin\roslyn\System.IO.FileSystem.dll" />
+    <Content Include="TutorWebsite\Bin\roslyn\System.IO.FileSystem.DriveInfo.dll" />
+    <Content Include="TutorWebsite\Bin\roslyn\System.IO.FileSystem.Primitives.dll" />
+    <Content Include="TutorWebsite\Bin\roslyn\System.IO.Pipes.dll" />
+    <Content Include="TutorWebsite\Bin\roslyn\System.Reflection.Metadata.dll" />
+    <Content Include="TutorWebsite\Bin\roslyn\System.Security.AccessControl.dll" />
+    <Content Include="TutorWebsite\Bin\roslyn\System.Security.Claims.dll" />
+    <Content Include="TutorWebsite\Bin\roslyn\System.Security.Cryptography.Algorithms.dll" />
+    <Content Include="TutorWebsite\Bin\roslyn\System.Security.Cryptography.Encoding.dll" />
+    <Content Include="TutorWebsite\Bin\roslyn\System.Security.Cryptography.Primitives.dll" />
+    <Content Include="TutorWebsite\Bin\roslyn\System.Security.Cryptography.X509Certificates.dll" />
+    <Content Include="TutorWebsite\Bin\roslyn\System.Security.Principal.Windows.dll" />
+    <Content Include="TutorWebsite\Bin\roslyn\System.Text.Encoding.CodePages.dll" />
+    <Content Include="TutorWebsite\Bin\roslyn\System.Threading.Thread.dll" />
+    <Content Include="TutorWebsite\Bin\roslyn\System.ValueTuple.dll" />
+    <Content Include="TutorWebsite\Bin\roslyn\System.Xml.ReaderWriter.dll" />
+    <Content Include="TutorWebsite\Bin\roslyn\System.Xml.XmlDocument.dll" />
+    <Content Include="TutorWebsite\Bin\roslyn\System.Xml.XPath.dll" />
+    <Content Include="TutorWebsite\Bin\roslyn\System.Xml.XPath.XDocument.dll" />
+    <Content Include="TutorWebsite\Bin\roslyn\vbc.exe" />
+    <Content Include="TutorWebsite\Bin\roslyn\VBCSCompiler.exe" />
+    <Content Include="TutorWebsite\Findtutor.aspx" />
+    <Content Include="TutorWebsite\Images\15.png" />
+    <Content Include="TutorWebsite\Images\bartSimpson.JPG" />
+    <Content Include="TutorWebsite\Images\book.png" />
+    <Content Include="TutorWebsite\Images\logo.png" />
+    <Content Include="TutorWebsite\Images\simpson.JPG" />
+    <Content Include="TutorWebsite\Images\star.png" />
+    <Content Include="TutorWebsite\Images\textbook.png" />
+    <Content Include="TutorWebsite\Images\time.png" />
+    <Content Include="TutorWebsite\Images\time2.png" />
+    <Content Include="TutorWebsite\Images\toystory.jpeg" />
+    <Content Include="TutorWebsite\Images\toystory2.jpeg" />
+    <Content Include="TutorWebsite\Images\tutor.png" />
+    <Content Include="TutorWebsite\Images\tutor3.png" />
+    <Content Include="TutorWebsite\Login.aspx" />
+    <Content Include="TutorWebsite\Main.aspx" />
+    <Content Include="TutorWebsite\Signup.aspx" />
+    <Content Include="TutorWebsite\Subject.aspx" />
+    <Content Include="TutorWebsite\Tutor.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TutorWebsite\About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TutorWebsite\Findtutor.aspx.cs">
+      <DependentUpon>Findtutor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TutorWebsite\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TutorWebsite\Main.aspx.cs">
+      <DependentUpon>Main.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TutorWebsite\MasterPage.master.cs">
+      <DependentUpon>MasterPage.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TutorWebsite\Signup.aspx.cs">
+      <DependentUpon>Signup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TutorWebsite\Subject.aspx.cs">
+      <DependentUpon>Subject.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TutorWebsite\Tutor.aspx.cs">
+      <DependentUpon>Tutor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
