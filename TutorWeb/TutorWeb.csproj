@@ -201,6 +201,7 @@
     <Content Include="TutorWebsite\Images\tutor3.png" />
     <Content Include="TutorWebsite\Login.aspx" />
     <Content Include="TutorWebsite\Main.aspx" />
+    <Content Include="TutorWebsite\Pricing.aspx" />
     <Content Include="TutorWebsite\Signup.aspx" />
     <Content Include="TutorWebsite\Subject.aspx" />
     <Content Include="TutorWebsite\Tutor.aspx" />
@@ -229,6 +230,13 @@
     <Compile Include="TutorWebsite\MasterPage.master.cs">
       <DependentUpon>MasterPage.master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TutorWebsite\Pricing.aspx.cs">
+      <DependentUpon>Pricing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TutorWebsite\Pricing.aspx.designer.cs">
+      <DependentUpon>Pricing.aspx</DependentUpon>
     </Compile>
     <Compile Include="TutorWebsite\Signup.aspx.cs">
       <DependentUpon>Signup.aspx</DependentUpon>
