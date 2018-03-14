@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/TutorWebsite/MasterPage.master" AutoEventWireup="true" Inherits="Pricing" CodeFile="Pricing.aspx.cs" %>
 <asp:Content ID="pricing" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-  <asp:Table ID="tb" runat="server" CssClass="mainTable" Height="265px" Width="70%">
+  <asp:Table ID="pricetb" runat="server" CssClass="mainTable" Height="265px" Width="70%">
 
             <asp:TableRow Width="100%">
             <asp:TableCell>
