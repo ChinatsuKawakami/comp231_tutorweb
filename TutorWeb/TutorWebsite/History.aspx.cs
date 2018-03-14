@@ -11,4 +11,9 @@ using System.Web.UI.WebControls;
         {
 
         }
+
+    protected void PersonalinfoBtn_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("Userinfo.aspx");
     }
+}
