@@ -7,7 +7,7 @@
             <asp:TableCell>
                 <asp:Label runat="server" Font-Bold="true" ForeColor="#0C374D">Order Summary</asp:Label><br />
                 <asp:Label runat="server" Font-Bold="true" ForeColor="#0C374D">Description: Subscription in a month </asp:Label><br />
-                <asp:Label runat="server" Font-Bold="true" ForeColor="#0C374D">Amount: 120.00 CAD</asp:Label>
+                <asp:Label runat="server" Font-Bold="true" ForeColor="#0C374D">Amount: 100.00 CAD</asp:Label>
             </asp:TableCell>
         </asp:TableRow>
                 <asp:TableRow>
