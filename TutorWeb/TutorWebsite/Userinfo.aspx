@@ -11,6 +11,8 @@
             
             <asp:TableCell>
                 <asp:Image ID="userImg" ImageUrl="Images/account.png" runat="server"  height="150" Width="150" /><br />
+                <asp:FileUpload ID="uploadproImg" runat="server" Text="Update photo" /><br />
+
                 <asp:Button ID="uploadImg" runat="server" Text="change photo" OnClick="UploadImg_Click"/>
             </asp:TableCell>
 
