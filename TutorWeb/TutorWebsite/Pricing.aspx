@@ -47,18 +47,20 @@
       <asp:TableRow Width="100%">
                 <asp:TableCell Width="100%">
                      <asp:Label runat="server" Font-Size="X-Large">$20/1 Hour</asp:Label><br />
-                        <asp:Button id="Button1"
+                        <asp:Button id="payperBtn"
                   Text="Choose this plan"
-                  CommandName="payperbtn"
+                  CommandName="payperBtn"
+                 OnClick="PayperBtn_Click"
                   runat="server" />
                 </asp:TableCell>
 
           <asp:TableCell Width="100%">
                 <asp:Label runat="server" Font-Size="X-Large">$100/month</asp:Label><br />
                  <asp:Label runat="server" Font-Size="Medium">per month</asp:Label><br />
-                   <asp:Button id="btn2"
+                   <asp:Button id="subBtn"
                   Text="Choose this plan"
-                  CommandName="subbtn"
+                  CommandName="subBtn"
+                 OnClick="SubBtn_Click"
                   runat="server" />
           </asp:TableCell>
 
