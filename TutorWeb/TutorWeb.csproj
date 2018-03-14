@@ -122,6 +122,7 @@
     <Content Include="TutorWebsite\Bin\roslyn\VBCSCompiler.exe.config" />
     <Content Include="TutorWebsite\Bin\roslyn\VBCSCompiler.exe.refresh" />
     <Content Include="TutorWebsite\BookSession.aspx" />
+    <Content Include="TutorWebsite\ChangePassword.aspx" />
     <Content Include="TutorWebsite\Forum.aspx" />
     <Content Include="TutorWebsite\History.aspx" />
     <Content Include="TutorWebsite\Images\account.png" />
@@ -258,6 +259,13 @@
     </Compile>
     <Compile Include="TutorWebsite\BookSession.aspx.designer.cs">
       <DependentUpon>BookSession.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TutorWebsite\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TutorWebsite\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
     </Compile>
     <Compile Include="TutorWebsite\Findtutor.aspx.cs">
       <DependentUpon>Findtutor.aspx</DependentUpon>
