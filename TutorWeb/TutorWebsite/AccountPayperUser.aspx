@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/TutorWebsite/MasterPage.master" AutoEventWireup="true" CodeFile="AccountPayperUser.aspx.cs" Inherits="AccountPayperUser" %>
 <asp:Content ID="accountpayperuser" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-  
+  <link rel="stylesheet" href="css/StyleSheet.css" type="text/css" runat="server"  />
     <asp:Table ID="tbAccountPaper" runat="server" CssClass="mainTable" Height="265px" Width="100%">
             <asp:TableRow>
             <asp:TableCell>
@@ -32,15 +32,18 @@
         <asp:TableRow>
              <asp:TableCell>
              <a href="RecommendTutro.aspx"><asp:Image ID="recommendimg" runat="server" ImageUrl="Images/recommended-star.png" height="150" Width="150" /></a>
+                   
             </asp:TableCell>       
           
                    
              <asp:TableCell>
              <a href="History.aspx"><asp:Image ID="historyimg" runat="server" ImageUrl="Images/history.png" height="150" Width="150" /></a>
+                   
             </asp:TableCell>   
                   
              <asp:TableCell>
              <a href="Map.aspx"><asp:Image ID="mapimg" runat="server" ImageUrl="Images/placeholder.png" height="150" Width="150" /></a>
+              
             </asp:TableCell>   
             </asp:TableRow>
 

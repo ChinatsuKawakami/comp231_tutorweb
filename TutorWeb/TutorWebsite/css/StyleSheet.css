@@ -1,0 +1,30 @@
+﻿body {
+}
+
+/*AccountPayperUser */
+.mainTable{
+
+}
+
+
+/*UploadFile*/
+.uploadtitle {
+    font-family: 'Times New Roman', Times, serif;
+    font:bold;
+    font-size: 32px;
+}
+.uploadicon{
+    margin :10px 10px 10px 10px;
+}
+.submitfileBtn {
+    font-family: 'Times New Roman', Times, serif;
+}
+.fileupload {
+    background-color: #EA2027;
+}
+.div.btn-group{
+    margin:10px auto;
+}
+.uploadDDL {
+   /* margin: 10px 10px 10px 10px;*/
+}
