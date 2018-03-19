@@ -1,6 +1,9 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/TutorWebsite/MasterPage.master" AutoEventWireup="true" CodeFile="AccountSubscription.aspx.cs" Inherits="AccountSubscription" %>
 
 <asp:Content ID="accountsubscription" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+       
+    
+     <link rel="stylesheet" href="css/StyleSheet.css" type="text/css" runat="server"  />
      <asp:Table ID="tbAccountPaper" runat="server" CssClass="mainTable" Height="265px" Width="100%">
             <asp:TableRow>
             <asp:TableCell>
@@ -20,16 +23,16 @@
 
          <asp:TableRow>
             <asp:TableCell>
-                <asp:Label runat="server" Font-Size="X-Large">Find Tutor</asp:Label>
+                <asp:Label runat="server" CssClass="lfindtutorS" Font-Size="X-Large">Find Tutor</asp:Label>
             </asp:TableCell>
             <asp:TableCell>
-                <asp:Label runat="server" Font-Size="X-Large">Book Session</asp:Label>
+                <asp:Label runat="server"  CssClass="lbooksessionS" Font-Size="X-Large">Book Session</asp:Label>
             </asp:TableCell>
                 <asp:TableCell>
-                <asp:Label runat="server" Font-Size="X-Large">Account Info</asp:Label>
+                <asp:Label runat="server"  CssClass="laccountInfoS" Font-Size="X-Large">Account Info</asp:Label>
             </asp:TableCell>
                <asp:TableCell>
-                <asp:Label runat="server" Font-Size="X-Large">Recommend Tutor</asp:Label>
+                <asp:Label runat="server" CssClass="lrecommendS" Font-Size="X-Large">Recommend Tutor</asp:Label>
             </asp:TableCell>
             </asp:TableRow>
 
@@ -51,16 +54,16 @@
 
                <asp:TableRow>
             <asp:TableCell>
-                <asp:Label runat="server" Font-Size="X-Large">Forum</asp:Label>
+                <asp:Label runat="server"  CssClass="lforumS" Font-Size="X-Large">Forum</asp:Label>
             </asp:TableCell>
             <asp:TableCell>
-                <asp:Label runat="server" Font-Size="X-Large">Upload File</asp:Label>
+                <asp:Label runat="server"  CssClass="luploadfileS" Font-Size="X-Large">Upload File</asp:Label>
             </asp:TableCell>
                 <asp:TableCell>
-                <asp:Label runat="server" Font-Size="X-Large">View History</asp:Label>
+                <asp:Label runat="server"  CssClass="lviewHistoryS" Font-Size="X-Large">View History</asp:Label>
             </asp:TableCell>
              <asp:TableCell>
-                <asp:Label runat="server" Font-Size="X-Large">nearby tutor in Map</asp:Label>
+                <asp:Label runat="server"  CssClass="lnearTutorS" Font-Size="X-Large">nearby tutor in Map</asp:Label>
             </asp:TableCell>
             </asp:TableRow>
         </asp:Table>

@@ -1,6 +1,9 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/TutorWebsite/MasterPage.master" AutoEventWireup="true" CodeFile="PaymentForSubscription.aspx.cs" Inherits="PaymentForSubscription" %>
 <asp:Content ID="paymentsub" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+     <link rel="stylesheet" href="css/StyleSheet.css" type="text/css" runat="server"  />
 
+
+    <div runat="server" class="body-paymentSubscription">
 
         <asp:Table ID="paymentSubtb" runat="server" CssClass="mainTable" Height="265px" Width="70%">
         <asp:TableRow>
@@ -78,11 +81,11 @@
             
              <asp:TableRow>
              <asp:TableCell>
-               <asp:Button runat="server" ID="paysubbtn" text="Make Payment"/>&nbsp;
-               <asp:Button runat="server" ID="Button1" text="Cancel Payment"/>
+               <asp:Button runat="server" ID="paysubbtn" text="Make Payment" class="btn btn-success"/>&nbsp;
+               <asp:Button runat="server" ID="Button1" text="Cancel Payment" class="btn btn-warning"/>
               </asp:TableCell>
               </asp:TableRow>
         </asp:Table>
-  
+  </div>
 </asp:Content>
 

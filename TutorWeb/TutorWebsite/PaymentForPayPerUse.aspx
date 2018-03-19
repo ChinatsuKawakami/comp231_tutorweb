@@ -2,11 +2,13 @@
 
 <asp:Content ID="paymentPayPerid" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-    
+      <link rel="stylesheet" href="css/StyleSheet.css" type="text/css" runat="server"  />
+
+    <div class="body_paymentforpay" runat="server">
         <asp:Table ID="paypertb" runat="server" CssClass="mainTable" Height="265px" Width="70%">
         <asp:TableRow>
             <asp:TableCell>
-                <asp:Label runat="server" Font-Bold="true" ForeColor="#0C374D">Order Summary</asp:Label><br />
+                <asp:Label runat="server" Font-Bold="true"  ForeColor="#0C374D">Order Summary</asp:Label><br />
                 <asp:Label runat="server" Font-Bold="true" ForeColor="#0C374D">How many hours do you want to book for session? </asp:Label>
                 <asp:DropDownList runat="server" ID="sessionList" onselectedindexchanged="itemSelected" AutoPostBack="true">
                     <asp:ListItem Text="1" Value="1"></asp:ListItem>
@@ -93,11 +95,12 @@
             
              <asp:TableRow>
              <asp:TableCell>
-               <asp:Button runat="server" ID="paysubbtn" text="Make Payment"/>&nbsp;
-               <asp:Button runat="server" ID="Button1" text="Cancel Payment"/>
+               <asp:Button runat="server" ID="paysubbtn" text="Make Payment" class="btn btn-success"/>&nbsp;
+               <asp:Button runat="server" ID="Button1" text="Cancel Payment" class="btn btn-warning"/>
               </asp:TableCell>
               </asp:TableRow>
         </asp:Table>
+        </div>
 </asp:Content>
 <script runat="server">
     protected void itemSelected(object sender, EventArgs e)

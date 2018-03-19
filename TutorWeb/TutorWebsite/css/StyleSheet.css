@@ -1,16 +1,95 @@
 ﻿body {
 }
 
-/*AccountPayperUser */
-.mainTable{
-
+/*paymentPayperUser */
+.body_paymentforpay {
+    margin: 30px 10px 10px 10px;
+    width: 140%;
+    position: absolute;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-size:larger;
 }
 
 
+/*paymentForSubscription*/
+.body-paymentSubscription
+{
+    margin: 30px 10px 10px 10px;
+    width: 140%;
+    position: absolute;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-size: larger;
+}
+}
+/*AccountPayperUser*/
+.div.body-accountPayper {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+    margin: 10px;
+}
+.lfindtutor {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 10px;
+}
+.lbooksession {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 10px;
+}
+.laccountU {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 10px;
+}
+.lrecommend {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 10px;
+}
+.lviewHistory {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 10px;
+}
+.lneartutor {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 10px;
+}
+
+/*AccountSubscription page*/
+
+.lfindtutorS {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 10px;
+}
+.lbooksessionS {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 10px;
+}
+.laccountInfoS {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 10px;
+}
+.lrecommendS {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 10px;
+}
+.lforumS {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 10px;
+}
+.luploadfileS {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 10px;
+}
+.lviewHistoryS {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 10px;
+}
+.lnearTutorS {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 10px;
+}
 /*UploadFile*/
 .uploadtitle {
     font-family: 'Times New Roman', Times, serif;
-    font:bold;
+    font: bold;
     font-size: 32px;
 }
 .uploadicon{
