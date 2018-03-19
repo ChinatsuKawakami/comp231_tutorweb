@@ -13,6 +13,7 @@
     </div>
     <div class ="btn-group">
     <asp:FileUpload ID="fileupload" class="fileupload" runat="server"/><br />
-    <asp:Button runat="server" CssClass="btn btn-primary active"  ID="submitfile" Text="Upload File"  type="button"/>
+    <asp:Button runat="server" CssClass="btn btn-primary active"  ID="Submitfile" Text="Upload File"  type="button" OnClick="submitfile_Click"/><br />
+    <asp:Label runat="server" ID="statusLabel" Text="Upload Status: " />
     </div>
 </asp:Content>
