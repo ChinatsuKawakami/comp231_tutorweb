@@ -9,7 +9,7 @@
                  <asp:TextBox ID="newpassTxtBox" runat="server"></asp:TextBox><br />
                     <asp:Label ID="confirmpass" runat="server" value="">Confirm Password :</asp:Label>
                  <asp:TextBox ID="confirmTxtBox" runat="server"></asp:TextBox><br />
-                 <asp:Button ID="changeBtn" runat="server" Text="Change Password" OnClick="ChangeBtn_Click"/>
+                 <asp:Button ID="changeBtn" runat="server" CssClass="btn btn-danger" Text="Change Password" OnClick="ChangeBtn_Click"/>
 
              </asp:TableCell>
         </asp:TableRow>

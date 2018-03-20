@@ -11,7 +11,7 @@
     <asp:ContentPlaceHolder id="head" runat="server">
         <!--Added Bootstrap ver:4.0.0 / jquery ver:3.3.1 -->
     
-    <link rel="stylesheet" href="../Content/bootstrap.min.css" />
+        <link rel="stylesheet" href="../Content/bootstrap.min.css" />
     <script src="../Scripts/jquery-3.3.1.min.js"></script>
     <script src="../Scripts/bootstrap.min.js"></script>
     </asp:ContentPlaceHolder>
@@ -19,10 +19,10 @@
 </head>
 <body style="align-content:center; text-align:center">
     <form id="form1" runat="server">
-  
+        
         <a href="Main.aspx"><asp:Image runat="server" ImageUrl="~/Images/logo.png" height="50" Width="50"/></a>        
         <header>       
-    		<nav id="headnav">
+    		<nav id="headnav" aria-multiline="True">
         		<ul>          
             		<li><a href="Findtutor.aspx">Find a tutor</a></li>
                 	<li><a href="Subject.aspx">Subjects</a></li>

@@ -1,7 +1,9 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/TutorWebsite/MasterPage.master" AutoEventWireup="true" CodeFile="History.aspx.cs" Inherits="History" %>
 <asp:Content ID="history" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
- 
-    <asp:Table ID ="historyalltd" CssClass="historyalltd"  runat="server" Width="100%">
+       <link rel="stylesheet" href="css/StyleSheet.css" type="text/css" runat="server" />
+
+    <div class="historybody">
+    <asp:Table ID ="historyalltd" CssClass="historyalltd"  runat="server" Height="265px" Width="100%">
       <asp:TableRow>
         <asp:TableCell>
             <asp:Image ID="historyicon" runat="server" ImageUrl="Images/account.png" Height="150" Width="150"/><br />
@@ -28,17 +30,11 @@
             <asp:TableCell>
                <asp:label ID ="tutornameid" Text="Tutor Name" runat="server"></asp:label>
               </asp:TableCell>
-
-   
            </asp:TableRow>
              </asp:Table>
-
         </asp:TableCell>
-
-      </asp:TableRow>
-      
-  
-
+</asp:TableRow>   
     </asp:Table>
+       </div>
 </asp:Content>
 

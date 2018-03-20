@@ -1,6 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/TutorWebsite/MasterPage.master" AutoEventWireup="true" CodeFile="RecommendTutor.aspx.cs" Inherits="RecommendTutor"%>
 <%@ Register assembly="AjaxControlToolkit" namespace="AjaxControlToolkit" tagprefix="cc1" %>
 <asp:Content ID="recommendid" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+       <!--Added StyleSheet-->
        <link rel="stylesheet" href="css/StyleSheet.css" type="text/css" runat="server"  />
        <!--Added Bootstrap ver:4.0.0 / jquery ver:3.3.1 -->
     <link rel="stylesheet" href="../Content/bootstrap.min.css" />
@@ -34,32 +35,32 @@
 
 
     </style>
+
+ <div class="recommendbody">
    <asp:Label CssClass="Recommendtitle" ID="Recommendtitle" runat="server" Text="Recommended Tutor"></asp:Label>
     <asp:Table ID="ratingtd" CssClass="ratingtd" runat="server" width=80% Height="30%" HorizontalAlign="Center">
         <asp:TableHeaderRow Width="80%" HorizontalAlign="Center">
             <asp:TableHeaderCell>
-               
-<br />
+                <br />
          </asp:TableHeaderCell>
             <asp:TableHeaderCell>
                    <asp:DropDownList runat="server" ID="RatingDDL" CssClass="RatingDDL">
                    <%--  Add tutor name with whom the user took session so far--%>
                     <asp:ListItem>Choose Tutor to whom you want to give Stars</asp:ListItem>
-                
-</asp:DropDownList>
+                   </asp:DropDownList>
             
-</asp:TableHeaderCell>
+         </asp:TableHeaderCell>
         </asp:TableHeaderRow>
         <asp:TableRow HorizontalAlign="Center">
             <asp:TableCell>
                <asp:Label runat="server" ID="q1" Text="Q1: Punctuality"></asp:Label>
             
-</asp:TableCell>
+       </asp:TableCell>
             <asp:TableCell>
     <asp:ScriptManager ID="ScriptManager1" runat="server">
     </asp:ScriptManager>
  
-<asp:UpdatePanel ID="UpdatePanel1" runat="server">
+      <asp:UpdatePanel ID="UpdatePanel1" runat="server">
         <ContentTemplate>           
             
            
@@ -102,21 +103,21 @@
             >    
            </cc1:Rating>
         
-</ContentTemplate>
+    </ContentTemplate>
     
-</asp:UpdatePanel>
+      </asp:UpdatePanel>
     
             
-</asp:TableCell>
+         </asp:TableCell>
         </asp:TableRow>
          <asp:TableRow HorizontalAlign="Center">
             <asp:TableCell>
                 <asp:Label runat="server" ID="q3" Text="Q3: Material"></asp:Label>
             
-</asp:TableCell>
-                         <asp:TableCell>
+              </asp:TableCell>
+               <asp:TableCell>
 
- <asp:UpdatePanel ID="UpdatePanel3" runat="server">
+       <asp:UpdatePanel ID="UpdatePanel3" runat="server">
         <ContentTemplate>           
             
            
@@ -209,5 +210,6 @@
       </asp:TableCell>
   </asp:TableFooterRow>
         </asp:Table>
+ </div>
 </asp:Content>
 

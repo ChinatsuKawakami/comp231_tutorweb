@@ -35,7 +35,7 @@
 
         <asp:TableRow>
              <asp:TableCell>
-             <a href="RecommendTutro.aspx"><asp:Image  ID="recommendimg" runat="server" ImageUrl="Images/recommended-star.png" height="150" Width="150" /></a>
+             <a href="RecommendTutor.aspx"><asp:Image  ID="recommendimg" runat="server" ImageUrl="Images/recommended-star.png" height="150" Width="150" /></a>
                    
             </asp:TableCell>       
           
