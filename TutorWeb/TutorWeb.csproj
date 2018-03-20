@@ -291,7 +291,8 @@
     <Content Include="TutorWebsite\Images\account.png" />
     <Content Include="TutorWebsite\Images\arrow-upload-icon.png" />
     <Content Include="TutorWebsite\Images\cvvcode.png" />
-    <Content Include="TutorWebsite\Images\dimensional_shapes_basic_twinkle_star.jpg" />
+    <Content Include="TutorWebsite\Images\emptyStar.jpg" />
+    <Content Include="TutorWebsite\Images\filledStar.png" />
     <Content Include="TutorWebsite\Images\history.png" />
     <Content Include="TutorWebsite\Images\human-resources.png" />
     <Content Include="TutorWebsite\Images\Master-Card-icon.png" />
@@ -300,7 +301,6 @@
     <Content Include="TutorWebsite\Images\recommended-star.png" />
     <Content Include="TutorWebsite\Images\reunion.png" />
     <Content Include="TutorWebsite\Images\search.png" />
-    <Content Include="TutorWebsite\Images\star-512.png" />
     <Content Include="TutorWebsite\Images\Visa-icon.png" />
     <Content Include="TutorWebsite\Images\waitingstar.png" />
     <Content Include="TutorWebsite\Map.aspx" />

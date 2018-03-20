@@ -1,17 +1,18 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/TutorWebsite/MasterPage.master" AutoEventWireup="true" CodeFile="History.aspx.cs" Inherits="History" %>
 <asp:Content ID="history" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
  
-    <asp:Table ID ="historyalltd" runat="server" Width="100%">
+    <asp:Table ID ="historyalltd" CssClass="historyalltd"  runat="server" Width="100%">
       <asp:TableRow>
         <asp:TableCell>
             <asp:Image ID="historyicon" runat="server" ImageUrl="Images/account.png" Height="150" Width="150"/><br />
-            <asp:Button ID="personalinfoBtn" runat="server" Text="Personal Info" OnClick="PersonalinfoBtn_Click"/><br />
+            <br />
+            <asp:Button ID="personalinfoBtn" CssClasS="btn btn-success" runat="server" Text="Personal Info" OnClick="PersonalinfoBtn_Click"/><br />
         </asp:TableCell>
        <asp:TableCell>
-         <asp:Table ID="Table1" runat="server" BorderStyle="Solid" GridLines="Both">
+         <asp:Table ID="historytd" CssClass="historytd" runat="server" BorderStyle="Solid" width="80%" GridLines="Both">
 
              <asp:TableRow>
-         
+              
            <asp:TableCell>
               <asp:label ID ="titleid" Text="Title" runat="server"></asp:label>
             </asp:TableCell>
